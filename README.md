@@ -1,2 +1,2 @@
 # Welcome!
-This i a WIP of the site.
+This is a WIP of the site.
