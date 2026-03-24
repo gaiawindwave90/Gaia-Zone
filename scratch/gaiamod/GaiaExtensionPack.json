@@ -2,8 +2,8 @@
     "name":"GaiaMod",
     "extensions":{
         "Gaia Blocks": {
-        "url": "GaiaBlocks.js",
-        "banner": "gaiablocks.svg",
+        "url": "https://github.com/gaiawindwave90/Gaia-Zone/raw/refs/heads/main/scratch/gaiamod/GaiaBlocks.js",
+        "banner": "https://github.com/gaiawindwave90/Gaia-Zone/blob/main/scratch/gaiamod/gaiablocks.png?raw=true",
 		"description": "Wonderful utility blocks! Modified by <a href='https://codetorch.net/en/users/MB1990'>Gaia</a>"
         "tags": "all, Gaia, advanced"
         }
