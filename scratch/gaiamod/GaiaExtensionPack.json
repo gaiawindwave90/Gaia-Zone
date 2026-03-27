@@ -43,7 +43,7 @@
     "name": "More Fields",
     "description": "Custom Field Types. Created by yuri-kiss.",
     "url": "https://extensions.penguinmod.com/extensions/Ashime/MoreFields.js",
-    "thumb": "https://extensions.penguinmod.com/images/0znzw/MoreFields.avif"
+    "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
     },
   {
     "name": "Fire in the Hole!",
@@ -57,6 +57,18 @@
     "description": "Save variables, lists and extra info to a file, then load those things back in.",
     "url": "https://github.com/Dinosaurmod/DinosaurMod-Vm/raw/b69e6ba9a806fa36a4c5c5617ce369ffaf70a72f/src/extensions/jg_easySave/index.js",
     "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
+    },
+    {
+    "name": "Extra Inputs",
+    "description": "This Extension has been merged into the main toolbox. Extra Inputs that you can use.",
+    "url": "https://gabsthecuriouskid.github.io/FirstExtension/extensions/extrainputs.js",
+    "thumb": "https://gabsthecuriouskid.github.io/FirstExtension/images/ExtraInputsThumbnail.png"
+    },
+    {
+    "name": "TurboBuilder Extension",
+    "description": "Not alot of options yet. Create your own amazing extensions!",
+    "url": "https://gabsthecuriouskid.github.io/FirstExtension/legacy-extensions/turbobuilder.js",
+    "thumb": "https://studio.penguinmod.com/static/assets/93db39f338237e6a51790829ba22a879.png"
     },
   {
     "name": "GitHub API",
