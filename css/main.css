@@ -48,6 +48,11 @@
           }
 		  
 
+.bg-alert {
+  background-color: #8787EB;
+  color: #FFFFFF;
+}
+
 .bg-container {
   background-color: var(--container-bg);
   color: var(--container-color);
