@@ -51,6 +51,22 @@
 .bg-alert {
   background-color: #8787EB;
   color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.bg-alert img{
+  background-color: #8787EB;
+  color: #FFFFFF;
+}
+
+.bg-alert button{
+    background: #ffffff;
+    color: hsla(240, 65%, 50%, 1);
+    font-weight: bold;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 .bg-container {
