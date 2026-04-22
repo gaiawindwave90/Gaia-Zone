@@ -1,4 +1,4 @@
-:root {
+:root, [gui-theme="light"] {
 	 --gaiacolor:hsla(240, 65%, 50%, 1);
 	 --gaiacolor-secondary:hsla(240, 65%, 55%, 1);
 	 --gaiacolor-tertiary:hsla(240, 65%, 60%, 1);
@@ -18,7 +18,7 @@
   /* Add other variables */
 }
 
-[data-bs-theme="dark"] {
+[gui-theme="dark"] {
 	 --gaiacolor:hsla(240, 65%, 40%, 1);
 	 --gaiacolor-secondary:hsla(240, 65%, 50%, 1);
 	 --gaiacolor-tertiary:hsla(240, 65%, 55%, 1);

@@ -103,14 +103,14 @@ const htmlElement = document.documentElement;
 
 // Load stored theme
 const storedTheme = localStorage.getItem('theme') || 'light';
-htmlElement.setAttribute('data-bs-theme', storedTheme);
+htmlElement.setAttribute('gui-theme', storedTheme);
 
 // Toggle on button click
 themeToggle.addEventListener('click', () => {
-  const currentTheme = htmlElement.getAttribute('data-bs-theme');
+  const currentTheme = htmlElement.getAttribute('gui-theme');
   const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
   
-  htmlElement.setAttribute('data-bs-theme', newTheme);
+  htmlElement.setAttribute('gui-theme', newTheme);
   localStorage.setItem('theme', newTheme);
 });
 
