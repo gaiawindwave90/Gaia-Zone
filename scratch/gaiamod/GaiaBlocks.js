@@ -117,8 +117,13 @@ blockIconURI: "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHR
   }
   
   isOnline() {
-     return navigator.onLine;
-  }
+        // Modern Node.js has a navigator object but does .onLine === undefined
+        if (typeof navigator === 'object' && typeof navigator.onLine === 'boolean') {
+            return navigator.onLine;
+        }
+        // We're running in some non-browser environment. We probably have internet.
+        return true;
+    }
   
   cookiesEnabled() {
      return navigator.cookieEnabled;
