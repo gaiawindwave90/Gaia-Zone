@@ -35,9 +35,12 @@ function textSwap() {
   }
 }
 
+
+////////////////////// Years
   document.getElementById("year").innerHTML = new Date().getFullYear();
   
-  
+
+////////////////////// Random Messages  
   	var msg = new Array();
 msg[0] = "“Even the stars will fly out, should the world can be doomed?”";
 msg[1] = "“Heavens are always upon us!”";
@@ -97,7 +100,7 @@ msg[53] = "“🎵Boom boom boom boom<br>He's driving in my room<br>Driving cars
 		document.getElementById("random").innerHTML = msg[Math.floor(Math.random()*msg.length)];
 	}
 	
-
+////////////////////// Themes
 const themeToggle = document.getElementById('theme-toggle');
 const htmlElement = document.documentElement;
 
@@ -114,12 +117,14 @@ themeToggle.addEventListener('click', () => {
   localStorage.setItem('theme', newTheme);
 });
 
+////////////////////// Penguinmod Search
 function redirect() {
   var searchitem = document.getElementById("search");
   var url = "https://penguinmod.com/search?q=" + searchitem.value;
   window.open(url,"");
 }
 
+////////////////////// Current Date
         // Get the current date
         const today = new Date();
 
