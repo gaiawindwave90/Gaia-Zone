@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Gaia Blocks",
+    "description": "Wonderful utility blocks! Modified by Gaia.",
+    "url": "https://raw.githubusercontent.com/gaiawindwave90/Gaia-Zone/refs/heads/main/scratch/gaiamod/GaiaBlocks.js",
+    "thumb": "https://github.com/gaiawindwave90/Gaia-Zone/blob/main/scratch/gaiamod/gaiablocks.png?raw=true",
+    "recommended": true,
+    "legendary": true
+    },
+  {
+    "name": "Toast Notifications",
+    "description": "Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension! Created by MubiLop.",
+    "url": "https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js",
+    "thumb": "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.avif",
+    "recommended": true
+    },
+  {
+    "name": "Site Runtime",
+    "description": "A Combined version of multiple extensions: Packager Applications & AdaBrowser. Originally found on DinosaurMod.",
+    "url": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/extensions/webextension.js",
+    "thumb": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/site-runtime.png",
+    "recommended": true
+    },
+  {
+    "name": "Extension Exposer",
+    "description": "Access the raw functions from other extensions. Created by TheShovel.",
+    "url": "https://extensions.penguinmod.com/extensions/TheShovel/extexp.js",
+    "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
+    },
+  {
+    "name": "Speech to Text",
+    "description": "Talk to your projects. Not exactly the same as the Scratch one. Created by Sayamindu.",
+    "url": "https://sayamindu.github.io/scratch-extensions/speech_to_text_extension.js'",
+    "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
+    },
+  {
+    "name": "Project Interfaces",
+    "description": "Effortlessly create intuitive graphical user interfaces in your projects. Created by Lord cat. Gallery banner by Dillon.",
+    "url": "https://extensions.penguinmod.com/extensions/LordCat0/ProjectInterfaces.js",
+    "thumb": "https://extensions.penguinmod.com/images/LordCat0/ProjectInterfaces.avif"
+    },
+  {
+    "name": "More Fields",
+    "description": "Custom Field Types. Created by yuri-kiss.",
+    "url": "https://extensions.penguinmod.com/extensions/Ashime/MoreFields.js",
+    "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
+    },
+  {
+    "name": "Fire in the Hole!",
+    "description": "This joke is not funny anymore. Made by JeremyGamer13.",
+    "url": "https://extensions.penguinmod.com/extensions/JeremyGamer13/FireInTheHole.js",
+    "thumb": "https://library.penguinmod.com/files/emojis/cluelesssmile.png",
+     "legendary": true
+    },
+  {
+    "name": "Easy Save",
+    "description": "Save variables, lists and extra info to a file, then load those things back in.",
+    "url": "https://github.com/Dinosaurmod/DinosaurMod-Vm/raw/b69e6ba9a806fa36a4c5c5617ce369ffaf70a72f/src/extensions/jg_easySave/index.js",
+    "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
+    },
+  {
+    "name": "Extra Inputs",
+    "description": "This Extension has been merged into the main toolbox. Extra Inputs that you can use.",
+    "url": "https://gabsthecuriouskid.github.io/FirstExtension/extensions/extrainputs.js",
+    "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
+    },
+  {
+    "name": "GitHub API",
+    "description": "Fetch IDs, Description, etc. from Repositories, Users and Organizations. Originally found on DinosaurMod.",
+    "url": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/extensions/github-api.js",
+    "thumb": "https://gabsthecuriouskid.github.io/DinosaurModExtensions/images/githubapi.png"
+    },
+ {
+    "name": "TurboBuilder Extension",
+    "description": "Not alot of options yet. Create your own amazing extensions!",
+    "url": "https://gabsthecuriouskid.github.io/FirstExtension/legacy-extensions/turbobuilder.js",
+    "thumb": "https://github.com/Dinosaurmod/javascript/blob/0fcc96046f134292d6f44180947b34d6dfa97128/src/lib/libraries/extensions/penguinmod/extensions/placeholder.png?raw=true"
+    }
+]
