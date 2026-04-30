@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gaia Zone!</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/9159e3acb3.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<link rel="stylesheet" href="https://gaiawindwave90.github.io/css/bounce.css">
+<link rel="stylesheet" href="https://gaiawindwave90.github.io/css/main.css">
+</head>
+
+<body>
+<noscript>
+  <h1>You must enable Javascript to view the page.</h1>
+</noscript>
+
+  <nav class="navbar navbar-expand-sm bg-menu">
+  <div class="container-fluid justify-content-center text-white">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link imageIcon" href="https://gaiawindwave90.github.io/"><img src="https://gaiawindwave90.github.io/img/logos/logo.png" alt="logo" width="70"/></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"><i class="fa-solid fa-palette"></i>Art</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"><i class="fa-solid fa-book"></i>Writings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://gaiawindwave90.github.io/memes.html"><i class="fa-regular fa-face-grin-squint"></i>Memes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://gaiawindwave90.github.io/scratch.html"><i class="fa-solid fa-cat"></i>Scratch Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"><i class="fa-solid fa-star"></i>Others</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://gaiawindwave90.github.io/editor.html"><i class="fa-solid fa-plus"></i>Create on GaiaMod</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/gaiawindwave90/gaiawindwave90.github.io"><i class="fa-brands fa-github"></i>GitHub</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://discord.gg/fFnNT8RGav"><i class="fa-brands fa-discord"></i>Discord Server</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#"><i id="theme-toggle"></i></a>
+      </li>
+
+   <!-- Search Form -->
+    <form class="d-flex justify-content-end" action="javascript:redirect()" method="get">
+      <input id="search" class="ms-auto form-control me-2 searchinput" type="search" name="q" placeholder="Search Projects on PM..." aria-label="Search">
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>      
+    </ul>
+  </div>
+</nav>
+
+<div class="p-5 bg-jumbotron text-center">
+<h2>An archive of stuff made by me, with lots of special capabilities!</h2>            
+            <h2>Template inspired by <a class="inspiration" href="https://penguinmod.com/">PenguinMod</a>, a mod of <a
+class="inspiration-tw" href="https://turbowarp.org/">TurboWarp</a>.</h2>
+            <a style="text-decoration: none;" href="https://gaiawindwave90.github.io/editor.html"><button><img src="https://gaiawindwave90.github.io/img/icons/code.svg"/>Let's go!</button></a>
+</div>
+
+<div class="container-fluid bg-section text-center">
+                    <a class="btn btn-gaia" href="https://gaiamod-main.github.io/GaiaMod-Packager/">Packager</a>
+                    <a class="btn btn-gaia" href="https://github.com/gaiawindwave90/gaiawindwave90.github.io">GitHub</a>
+                    <a class="btn btn-gaia" href="https://discord.gg/fFnNT8RGav">Discord</a>
+</div>
+
+
+<div class="container-fluid">
+<center><img src="https://gaiawindwave90.github.io/img/logos/gaiamod-logo.svg" style="width:15%" alt="Logo" />
+<p><em>Note: Please don't mention this website or GaiaMod on Scratch, we have different rules compared to Scratch!</em></p> </center>
+  
+  <div class="row content">
+    <div class="col-sm-2 sidenav text-center">
+    <h4 class="mt-4">Date</h4>
+         <p><span id="currentDate"></span></p>
+      <p><span id="time"></span></p>
+<!--
+<hr>
+	  <div id="recentCommits">
+    <h4 class="mt-4">Latest Commits</h4>
+     <ul></ul>
+    </div>
+
+    <script>
+//I had no hope so I copied a Github script from Dinosaurmod lol
+            $.get("https://api.github.com/repos/gaiawindwave90/commits", function(data) {
+            // Display recent commits in a section
+            var commitsSection = $("#recentCommits");
+            var commitsList = $("<ul>");
+
+            data.forEach(function(commit) {
+                // Exclude commits made by "web-flow"
+                if (commit.author && commit.author.login.toLowerCase() !== "web-flow") {
+                    var commitItem = $("<li>");
+                    var commitInfo = commit.author ? commit.author.login : "Unknown";
+                    var commitTitle = commit.commit.message;
+
+                    commitItem.text(commitInfo + " - " + commitTitle);
+                    commitsList.append(commitItem);
+                }
+            });
+
+            commitsSection.append(commitsList);
+            
+          });
+    </script>
+    -->
+    </div>
+	
+    <div class="col-sm-8 border bg-container">
+    
+<h2>What's New?</h2>
+ <h3 class="mt-5">We will be down in a dew days.</h3>
+<img src="https://gaiawindwave90.github.io/img/art/404.png" alt="404"">
+    </div>
+	
+  </div>
+</div>
+<!-- Footer -->
+<footer class="container-fluid small text-center">
+    <h2>This website was made possible by a contribution from people like me. Thank you.</h2>
+  <div class="row">
+    <div class="col-sm-6">
+<h4>Website</h4>
+<ul>
+<li><a href="https://github.com/gaiawindwave90/gaiawindwave90.github.io/issues/">Report the issue</a></li>
+<li><a href="https://gaiawindwave90.github.io/editor.html">Editor</a></li>
+<li><a href="https://github.com/gaiawindwave90/gaiawindwave90.github.io">Source Code</a></li>
+</ul>
+    </div>
+    <div class="col-sm-6">
+              <h4>Social Accounts</h4>
+<ul>
+<li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/CrystalMae1990">FaceBook</a></li>
+<li><i class="fa-brands fa-x-twitter"></i><a href="https://twitter.com/CrystalF_1990">X</a></li>
+<li><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/@GaiaWindWave90">YouTube</a></li>
+<li><i class="fa-brands fa-github"></i><a href="https://github.com/gaiawindwave90">GitHub</a></li>
+<li><i class="fa-solid fa-fire"></i><a href="https://codetorch.net/en/users/MB1990">CodeTorch</a></li>
+<li><i class="fa-solid fa-paw"></i><a href="https://sofurry.com/u/maebug1990">SoFurry (WARNING: NSFW)</a></li>
+<li><i class="fa-solid fa-paintbrush"></i><a href="https://www.weasyl.com/%7Egaia">Weasyl (WARNING: NSFW)</a></li>
+</ul>
+    </div>
+  </div>
+<b>Tips:</b> <div id="random"></div>
+    <p>WARNING: This website might contain an inappropriated stuff and may not be suitable for younger visitors.</p>
+    <p>&copy;<span id="year"></span> GAIA. Template is inspired by <a class="inspiration" href="https://penguinmod.com/">PenguinMod</a>, a mod of <a
+class="inspiration-tw" href="https://turbowarp.org/">TurboWarp</a>. Bootstrap 5 Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a>. Hosted on <a href="https://github.com/">GitHub</a>.</p>
+</footer>
+<script src="https://gaiawindwave90.github.io/js/main.js">
+</script>
+
+<!-- Elfsight Age Verification | Untitled Age Verification -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-08517f37-9e04-4c7d-90cc-30d7b150efe6" data-elfsight-app-lazy></div>
+</body>
+</html>
