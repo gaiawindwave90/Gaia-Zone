@@ -83,37 +83,6 @@ class="inspiration-tw" href="https://turbowarp.org/">TurboWarp</a>.</h2>
     <h4 class="mt-4">Date</h4>
          <p><span id="currentDate"></span></p>
       <p><span id="time"></span></p>
-<!--
-<hr>
-	  <div id="recentCommits">
-    <h4 class="mt-4">Latest Commits</h4>
-     <ul></ul>
-    </div>
-
-    <script>
-//I had no hope so I copied a Github script from Dinosaurmod lol
-            $.get("https://api.github.com/repos/gaiawindwave90/commits", function(data) {
-            // Display recent commits in a section
-            var commitsSection = $("#recentCommits");
-            var commitsList = $("<ul>");
-
-            data.forEach(function(commit) {
-                // Exclude commits made by "web-flow"
-                if (commit.author && commit.author.login.toLowerCase() !== "web-flow") {
-                    var commitItem = $("<li>");
-                    var commitInfo = commit.author ? commit.author.login : "Unknown";
-                    var commitTitle = commit.commit.message;
-
-                    commitItem.text(commitInfo + " - " + commitTitle);
-                    commitsList.append(commitItem);
-                }
-            });
-
-            commitsSection.append(commitsList);
-            
-          });
-    </script>
-    -->
     </div>
 	
     <div class="col-sm-8 border bg-container">
@@ -127,10 +96,9 @@ class="inspiration-tw" href="https://turbowarp.org/">TurboWarp</a>.</h2>
 </div>
 <!-- Footer -->
 <footer class="container-fluid small text-center">
-    <h2>This website was made possible by a contribution from people like me. Thank you.</h2>
+    <h4>This website was made possible by a contribution from people like me. Thank you.</h4>
   <div class="row">
     <div class="col-sm-6">
-<h4>Website</h4>
 <ul>
 <li><a href="https://github.com/gaiawindwave90/gaiawindwave90.github.io/issues/">Report the issue</a></li>
 <li><a href="https://gaiawindwave90.github.io/editor.html">Editor</a></li>
@@ -138,13 +106,10 @@ class="inspiration-tw" href="https://turbowarp.org/">TurboWarp</a>.</h2>
 </ul>
     </div>
     <div class="col-sm-6">
-              <h4>Social Accounts</h4>
 <ul>
 <li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/CrystalMae1990">FaceBook</a></li>
 <li><i class="fa-brands fa-x-twitter"></i><a href="https://twitter.com/CrystalF_1990">X</a></li>
 <li><i class="fa-brands fa-github"></i><a href="https://github.com/gaiawindwave90">GitHub</a></li>
-<li><i class="fa-solid fa-paw"></i><a href="https://sofurry.com/u/maebug1990">SoFurry (WARNING: NSFW)</a></li>
-<li><i class="fa-solid fa-paintbrush"></i><a href="https://www.weasyl.com/%7Egaia">Weasyl (WARNING: NSFW)</a></li>
 </ul>
     </div>
   </div>
