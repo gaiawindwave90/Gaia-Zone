@@ -277,4 +277,5 @@ background-color: var(--footer-bg);
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
