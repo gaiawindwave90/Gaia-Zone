@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome to Miramii~! - Wonder Codes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="http://miramii.000webhostapp.com/scripts/security.js"></script>
+    <script src="http://miramii.000webhostapp.com/scripts/time.js"></script>
+    <script src="http://miramii.000webhostapp.com/scripts/dclock.js"></script>
+    <link rel="stylesheet" href="http://miramii.000webhostapp.com/styles/miramii.css">
+    <link rel="stylesheet" href="http://miramii.000webhostapp.com/styles/animations.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script src="http://miramii.000webhostapp.com/cheats/cheet.min.js"></script>
+<script>
+cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
+alert('Credits\nEditor: Chibiyima herself\nSources Used: W3Schools, HyperGurl and others');
+window.status = "Give me the credits, gentlemen!";
+document.title = "Give me the credits, gentlemen!";
+console.log("Give me the credits, gentlemen!");
+});
+</script>
+<script>
+window.onblur = function () { document.title = 'Come back here!'; }
+window.onfocus = function () { document.title = 'Welcome to Miramii~! - Wonder Codes'; }
+</script>
+</head>
+<body>
+  <noscript>
+  <h1>Please enable Javascript!</h1>
+  <h3>There's nothing hurt you!</h3>
+<style>
+#main {
+display: none;
+}
+body {
+  text-align: center;
+background-image: none;
+  background-color: #343a40;
+  color: #f8f9fa;
+  padding-top: 5%;
+}
+div {
+  display: none;
+}
+section {
+  display: none;
+}
+h1 {
+  color: #FFACE2;
+  font-size: 300%;
+}
+</style>
+ </noscript>
+<section> 
+<div id="main">
+<div class="jumbotron text-center banner height-wide" style="margin-bottom:0">
+  <h1><a href="http://miramii.000webhostapp.com/index2.php"><img style="border: 0px solid;" id="logo" alt="Miramii" src="http://miramii.000webhostapp.com/images/logos/logo.png"></a></h1>
+<p class="text-light"><i><q>Open Your Door To Fun</q></i></p>
+<p class="text-light text-right">Today's Date is: <time id="row1"></time><br><time id="row2"></time></p>
+<script type="text/javascript">updateClock();</script>
+</div>
+</div>
+
+<!--Navs Starting-->
+  <div id="nav">
+  <script src="http://miramii.000webhostapp.com/scripts/global/navi.js"></script>
+  </div>
+<!--Navs Ending-->
+
+<div class="container-fluid text-dark" style="margin-top:30px;">
+  <div class="row">
+    <div class="col-sm-2">
+      <h3>Archives</h3>
+        <?php
+  $number = "5";
+  include("cutenews/show_archives.php");
+?>
+The list of news archives could be shown very soon.
+      <h3>Social Links</h3>
+        <div id="links">
+  <script src="http://miramii.000webhostapp.com/scripts/global/links.js"></script>
+  </div>
+    </div>
+    <div class="col-sm-8">
+<h2>Wonder Codes</h2>
+<p>Welcome to the Wonder Code section. If you found something with a
+password on it, bring it in here. Enter the password you had from
+images below and you get something happened!</p>
+<!-- Wonder Code Script -->
+<script type="text/javascript">
+function checkform(){
+if(document.getElementById("pw").value == '' )
+{
+document.getElementById("changed").innerHTML = "<i class='fas fa-times'></i> The Wonder Code box is empty.";
+return false;
+}
+else if(document.getElementById("pw").value == 'MYBASICHERE' )
+{
+setTimeout(function() {window.location = "wonderpages/3423453.html"});
+}
+else if(document.getElementById("pw").value == '25CHANCES' )
+{
+setTimeout(function() {window.location = "wonderpages/1817362.html"});
+}
+else{document.getElementById("changed").innerHTML = "<i class='fas fa-times'></i> Wrong Wonder Code. Please enter the correct Wonder Code.";return false;
+}
+}
+</script>
+<!-- Wonder Code Script -->
+<form method="post" action="" required="" enctype="multipart/form-data" onsubmit="return(checkform())">
+<p><span style="width: 180px;"><span style="font-weight: bold;">Enter the Wonder Code:</span></span></p>
+<p><span style="width: 180px;"> </span><input class="form-control" size="100" name="password" id="pw" type="text"></p>
+<style>
+#changed {
+width:100%;
+margin-top:.25rem;
+font-size:80%;
+color:#dc3545;}
+</style>
+<br>
+<button type="submit" class="btn btn-primary">Submit</button></form>
+</div>
+<div class="col-sm-2">
+      <h3>About Me</h3>
+      <div id="aboutme">
+  <script src="http://miramii.000webhostapp.com/scripts/global/aboutme.js"></script>
+  </div>
+      <hr class="d-sm-none">
+    </div>
+  </div>
+</div>
+<div id="footer" class="jumbotron text-center bg-dark text-center text-light" style="margin-bottom:0">
+<script src="http://miramii.000webhostapp.com/scripts/global/footer.js"></script>
+</div>
+<script type="text/javascript">
+<!--
+	var adblock = true;
+//-->
+</script>
+<script type="text/javascript" src="http://miramii.000webhostapp.com/ad/adframe.js"></script>
+<script type="text/javascript">
+<!--
+	if(adblock) {
+		var allElements = document.getElementsByTagName('div');
+		for (var i = 0; i < allElements.length; i++) {
+			if (allElements[i].className == 'a') {
+				window.location.href = "http://miramii.000webhostapp.com/stop.html";
+			}
+		}
+	}
+// http://detect-ad-blocking-software.webconrad.com/
+//-->
+</script>
+  </div>
+  </div>
+  </div>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+</section> 
+</body>
+</html>
+</body>
+</html>
